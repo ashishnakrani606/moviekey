@@ -1,0 +1,123 @@
+.azosans-black {
+    font-family: azosans-black;
+}
+.azosans-light {
+    font-family: azosans-light;
+}
+.azosans-bold {
+    font-family: azosans-bold;
+}
+.decoration {
+    text-decoration: underline;
+}  
+#progressBarContainer {
+    position: fixed;
+    z-index: 100;
+    background: rgba(255,255,255,0.05);
+    width: 100%;
+    top: 0;
+    left: 0;
+}    
+#progressBar {
+    background: linear-gradient(to left,#6C50A9 0%,  #82E59C 100%);
+    transform-origin: top left;
+    transform: scale(0,0);
+    width: 100%;
+}
+
+#progressBarContainer,
+#progressBar {
+    height: 4px;
+}  
+.custom-bg{
+    background-image: radial-gradient(circle at 50% 0%, #1F2023 0%, #0A0A0A 100%);
+    border: 1px solid #000000;
+}
+.custom-bg-text h3{
+    background: linear-gradient(180deg, rgba(108,80,169,1) 0%, rgba(130,229,156,1) 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.4));
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #0062ff;
+}
+.table-section table,
+.table-section table td,
+.table-section table th{
+    border: 1px solid #000000;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .first-came{
+        font-size: 38px;
+        margin-bottom: 32px;
+    }
+    .consumer-text{
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+    .men-image{
+        height: 1024px;
+    }
+    .reach-para{
+        line-height: 50px;
+    }
+    .wrong-image{
+        width: 30px;
+    }
+    .right-image{
+        width: 50px;
+    }
+    .bg-image-shape{
+        top: -15% !important;
+        height: 870px;
+        right: 0 !important;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1300px){
+    .first-came-section{
+        padding-left: 100px;
+    }
+    .bg-image-shape{
+        top: -34%;
+    }
+}
+@media screen and (max-width: 1299px){
+    .bg-image-shape{
+        right: -50px;
+    }
+}
+@media screen and (max-width: 1199px){
+    .bg-image-shape{
+        display: none
+    }
+    .table-section{
+        margin-right: 25px;
+    }
+}
+@media screen and (max-width: 767px){
+    .persantage-saction{
+       background-position: left;
+    }
+    .persantage-saction-thired{
+        background-position: left;
+    }
+}
+@media screen and (max-width: 399px){
+    .hero-section-content{
+        margin-top: 30px;
+    }
+    .hero-section-content h2{
+        font-size: 32px;
+    }
+    .hero-section-content h4{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .hero-section-content p{
+        margin-bottom: 10px;
+    }
+    .hero-section-content a{
+        padding: 10px 0;
+    }
+}
